@@ -35,26 +35,15 @@
 //   console.log('Результат ' + result)
 // }
 
+//2 - Добавь промта возможность ввести название фруктов, выбери 5 фруктов
 
-
-
-
-//2 - Добавь промта возможность ввести название фруктов, вебери 5 фруктов 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let fruitName = prompt("Введите название фрукта: ");
+let fruits = ["apple", "orange", "pineapple", "watermelon", "orange"];
+if (fruitName.includes(fruits)) {
+  alert("Your fruit is on the list");
+} else {
+  alert("Your fruit is not on the list");
+}
 
 //3 - С помощью объекта Date, выведи какой сегодня день недели
 
